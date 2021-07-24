@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,10 +14,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Auth::routes();
+Route::get('/', 'App\Http\Controllers\PagesController@home');
+Route::get('/danses', 'App\Http\Controllers\PagesController@disciplines')->name('disciplines');
+Route::get('/planning', 'App\Http\Controllers\PagesController@planning')->name('planning');
+Route::get('/tarifs', 'App\Http\Controllers\PagesController@prices')->name('prices');
 
-Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// TODO: NEWS ROUTES
+
+Auth::routes();
 

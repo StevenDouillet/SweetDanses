@@ -11,41 +11,37 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
-    
+
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 </head>
 <body class="bg-gray-100 h-screen antialiased leading-none font-sans">
     <div id="app">
-        <header class="bg-blue-900 py-6">
+        <header class="py-6 sm:shadow-lg">
             <div class="container mx-auto flex justify-between items-center px-6">
                 <div>
-                    <a href="{{ url('/') }}" class="text-lg font-semibold text-gray-100 no-underline">
-                        {{ config('app.name', 'Laravel') }}
+                    <a href="{{ url('/') }}" class="text-lg font-semibold no-underline text-header">
+                        <img src="/images/logo.png" alt="logo de sweetdanses" height="50" width="50" style="display: inline-block">
+                        <span style="display: inline-block">
+                            <span class="logo-color-2">Sweet Danses</span>
+                        </span>
                     </a>
                 </div>
                 <nav class="space-x-4 text-gray-300 text-sm sm:text-base">
-                    @guest
-                        <a class="no-underline hover:underline" href="{{ route('login') }}">{{ __('Login') }}</a>
-                        @if (Route::has('register'))
-                            <a class="no-underline hover:underline" href="{{ route('register') }}">{{ __('Register') }}</a>
-                        @endif
-                    @else
-                        <span>{{ Auth::user()->name }}</span>
-
-                        <a href="{{ route('logout') }}"
-                           class="no-underline hover:underline"
-                           onclick="event.preventDefault();
-                                document.getElementById('logout-form').submit();">{{ __('Logout') }}</a>
-                        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="hidden">
-                            {{ csrf_field() }}
-                        </form>
-                    @endguest
+                    <a class="no-underline hover:underline text-header" href="{{ route('disciplines') }}">Danses</a>
+                    <a class="no-underline hover:underline text-header" href="{{ route('planning') }}">Planning</a>
+                    <a class="no-underline hover:underline text-header" href="{{ route('prices') }}">Tarifs</a>
                 </nav>
             </div>
         </header>
 
         @yield('content')
     </div>
+
+    <footer>
+        <div class="footer-content">
+            Copyright © 2020 SweetDanses.fr - Tous droits réservés!
+        </div>
+    </footer>
 </body>
 </html>

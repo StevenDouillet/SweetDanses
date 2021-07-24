@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'colors.scss';
+@import 'fonts.scss';
+@import 'buttons.scss';
+
+body { background-color: $light-gray; }
+header {
+    background-color: #fff;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+}
+
+.logo-color-1 {
+    font-weight: 800;
+    color: $pink;
+}
+
+.logo-color-2 {
+    font-weight: 600;
+    color: $dark-gray;
+}
+
+.home-banner {
+    height: 500px;
+    width: 100%;
+    display: block;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(248, 247, 216, 0.7);
+    position: relative;
+}
+
+.banner-layer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(222, 27, 255));
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.banner-content {
+    padding-top: 150px;
+}
+
+footer {
+    margin-top: 150px;
+    position: relative;
+    height: 200px;
+    background-color: #181a1e;
+
+    &::before {
+        background-color: #181a1e;
+        content: "";
+        display: block;
+        height: 6vw;
+        position: absolute;
+        top: -3vw;
+        transform: skewY(-3deg);
+        width: 100%;
+    }
+}
+
+.footer-content {
+    padding-top: 100px;
+    color: $light-gray;
+    text-align: center;
+
+    p {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+}
+
+h1 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+
+    &::before {
+        content: '';
+        display: block;
+        width: 60px;
+        height: 4px;
+        margin: 0 auto 15px;
+        background-color: $base-color;
+    }
+}
+
+p {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 200;
+    text-align: justify;
+    margin: auto;
+    width: 50%;
+    font-size: 20px;
+}
+
+.text-header {
+    color: $dark-gray;
+}
+
+.teachers {
+    margin: 20px 0;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-image: radial-gradient(#fff4fc, #f1c3d6);
+
+    .teacher {
+        margin: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+
+        img {
+            height: 100px;
+            width: auto;
+        }
+    }
+}
+
