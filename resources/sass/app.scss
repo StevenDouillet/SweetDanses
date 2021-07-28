@@ -183,6 +183,22 @@ p {
         border-color: $dark-pink;
     }
 }
+
+.small-sw-button {
+    font-size: 15px;
+    padding: 10px 25px;
+    border-radius: 25px;
+    color: $light-gray;
+    background-color: $pink;
+    border: 2px solid $pink;
+    transition: 0.3s;
+
+    &:hover {
+        background-color: $dark-pink;
+        border-color: $dark-pink;
+    }
+}
+
 .organisation {
     margin-top: 50px;
     text-align: center;
@@ -193,6 +209,30 @@ p {
 
     li:before {
         content: '- ';
+    }
+}
+
+.prices-info-container {
+    text-align: center;
+    padding: 25px;
+    padding-top: 80px;
+
+
+    a {
+        color: $pink;
+
+        &:hover {
+            color: $dark-pink;
+        }
+    }
+}
+
+.prices-asterix-container {
+    text-align: center;
+    padding-top: 25px;
+
+    p {
+        font-size: 16px;
     }
 }
 
