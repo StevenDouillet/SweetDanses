@@ -38,6 +38,14 @@
                     <a class="no-underline hover:underline text-header" href="{{ route('disciplines') }}">Danses</a>
                     <a class="no-underline hover:underline text-header" href="{{ route('planning') }}">Planning</a>
                     <a class="no-underline hover:underline text-header" href="{{ route('prices') }}">Tarifs</a>
+
+                    @auth
+                        <a class="xsmall-sw-button" href="#">{{ ucfirst(Auth::user()->name) }}</a>
+                    @endauth
+
+                    @guest
+                        <a class="xsmall-sw-button" href="{{ route('login') }}">Se connecter</a>
+                    @endguest
                 </nav>
             </div>
         </header>
