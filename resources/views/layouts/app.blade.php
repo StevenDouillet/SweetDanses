@@ -24,28 +24,21 @@
 </head>
 <body class="bg-gray-100 h-screen antialiased leading-none font-sans">
     <div id="app">
-        <header class="py-6 sm:shadow-lg">
+        <header class="py-4 sm:shadow-lg">
             <div class="container mx-auto flex justify-between items-center px-6">
                 <div>
                     <a href="{{ url('/') }}" class="text-lg font-semibold no-underline text-header">
-                        <img src="/images/logo.png" alt="logo de sweetdanses" height="50" width="50" style="display: inline-block">
+                        <img src="/images/logo.png" alt="logo de sweetdanses" height="70" width="70" style="display: inline-block">
                         <span style="display: inline-block">
                             <span class="logo-color-2">Sweet Danses</span>
                         </span>
                     </a>
                 </div>
                 <nav class="space-x-4 text-gray-300 text-sm sm:text-base">
+                    <a class="no-underline hover:underline text-header" href="/">Accueil</a>
                     <a class="no-underline hover:underline text-header" href="{{ route('disciplines') }}">Danses</a>
                     <a class="no-underline hover:underline text-header" href="{{ route('planning') }}">Planning</a>
                     <a class="no-underline hover:underline text-header" href="{{ route('prices') }}">Tarifs</a>
-
-                    @auth
-                        <a class="xsmall-sw-button" href="#"><i class="fas fa-user-alt"></i> {{ ucfirst(Auth::user()->name) }}</a>
-                    @endauth
-
-                    @guest
-                        <a class="xsmall-sw-button" href="{{ route('login') }}">Se connecter</a>
-                    @endguest
                 </nav>
             </div>
         </header>
@@ -55,6 +48,18 @@
 
     <footer>
         <div class="footer-content">
+            <div class="container mx-auto flex justify-between items-center footer-contact">
+                <span class="no-underline hover:underline text-header"><i class="fas fa-envelope"></i> sweetdanses@gmail.com</span>
+                <span class="no-underline hover:underline text-header"><i class="fas fa-phone"></i> +33 6 03 22 84 79</span>
+            </div>
+            <div class="container mx-auto flex justify-between items-center footer-links">
+                <a class="no-underline hover:underline text-header" href="/">Accueil</a>
+                <a class="no-underline hover:underline text-header" href="/posts">Actus</a>
+                <a class="no-underline hover:underline text-header" href="{{ route('disciplines') }}">Danses</a>
+                <a class="no-underline hover:underline text-header" href="{{ route('planning') }}">Planning</a>
+                <a class="no-underline hover:underline text-header" href="{{ route('prices') }}">Tarifs</a>
+                <a class="no-underline hover:underline text-header" href="{{ route('login') }}">Se connecter</a>
+            </div>
             Copyright © 2020 SweetDanses.fr - Tous droits réservés!
         </div>
     </footer>

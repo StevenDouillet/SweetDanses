@@ -55,7 +55,7 @@ header {
 footer {
     margin-top: 150px;
     position: relative;
-    height: 200px;
+    height: 250px;
     background-color: $pink;
 
     &::before {
@@ -71,7 +71,7 @@ footer {
 }
 
 .footer-content {
-    padding-top: 100px;
+    padding-top: 70px;
     color: $light-gray;
     text-align: center;
 
@@ -87,6 +87,23 @@ h1 {
     font-size: 40px;
     text-align: center;
     color: $light-gray;
+
+    &::before {
+        content: '';
+        display: block;
+        width: 60px;
+        height: 4px;
+        margin: 0 auto 15px;
+        background-color: $pink;
+    }
+}
+
+.dark-h1 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+    color: $dark-gray;
 
     &::before {
         content: '';
@@ -209,8 +226,17 @@ p {
         padding: 15px;
     }
 
-    li:before {
-        content: '- ';
+    ul {
+        display: inline-block;
+        text-align:left;
+    }
+
+    li {
+        padding-left: 0pt;
+
+        &:before {
+            content: '- ';
+        }
     }
 }
 
@@ -255,4 +281,33 @@ p {
         margin: 0 auto 15px;
         background-color: $pink;
     }
+}
+
+.footer-links {
+    margin: auto;
+    margin-bottom: 40px;
+    max-width: 500px;
+
+    a {
+        color: $light-gray;
+    }
+}
+
+.footer-contact {
+    margin: auto;
+    margin-bottom: 40px;
+    max-width: 400px;
+
+    span {
+        color: $light-gray;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+.ffd {
+    display: block;
+    margin: 0 auto;
 }
