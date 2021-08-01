@@ -7,15 +7,19 @@ use Illuminate\Http\Request;
 class PagesController extends Controller
 {
     public function home() {
-        return view('pages.home');
+        $title = 'Accueil';
+        return view('pages.home')->with('title', $title);
     }
     public function disciplines() {
-        return view('pages.disciplines');
+        $title = 'Nos danses';
+        return view('pages.disciplines')->with('title', $title);
     }
     public function planning() {
-        return view('pages.planning');
+        $title = 'Le planning';
+        return view('pages.planning')->with('title', $title);
     }
     public function prices() {
-        return view('pages.prices');
+        $title = 'Les tarifs';
+        return view('pages.prices')->with('title', $title);
     }
 }
