@@ -4,7 +4,7 @@
 
 <div class="container mx-auto prices-info-container">
     <p>Vous pouvez directement vous inscrire en suivant les instructions sur le lien suivant : </p>
-    <a href="https://www.google.com">https://www.google.com</a>
+    <a href="https://forms.gle/uqeaeeHNUsC3RNDTA">https://forms.gle/uqeaeeHNUsC3RNDTA</a>
 </div>
 
 <div class="flex flex-col items-center justify-center mt-14 space-y-8 lg:flex-row lg:items-stretch lg:space-x-8 lg:space-y-0">
