@@ -40,7 +40,7 @@
                     <a class="no-underline hover:underline text-header" href="{{ route('prices') }}">Tarifs</a>
 
                     @auth
-                        <a class="xsmall-sw-button" href="#">{{ ucfirst(Auth::user()->name) }}</a>
+                        <a class="xsmall-sw-button" href="#"><i class="fas fa-user-alt"></i> {{ ucfirst(Auth::user()->name) }}</a>
                     @endauth
 
                     @guest
