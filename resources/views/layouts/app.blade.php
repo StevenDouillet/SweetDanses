@@ -50,7 +50,7 @@
         <div class="footer-content">
             <div class="container mx-auto flex justify-between items-center footer-contact">
                 <span class="no-underline hover:underline text-header"><i class="fas fa-envelope"></i> sweetdanses@gmail.com</span>
-                <span class="no-underline hover:underline text-header"><i class="fas fa-phone"></i> +33 6 03 22 84 79</span>
+                <span class="no-underline hover:underline text-header"><i class="fas fa-phone"></i> +33 07 49 83 15 36</span>
             </div>
             <div class="container mx-auto flex justify-between items-center footer-links">
                 <a class="no-underline hover:underline text-header" href="/">Accueil</a>

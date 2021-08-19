@@ -50,7 +50,7 @@
         <!-- Features -->
         <ul class="flex-1 space-y-4">
             <li class="flex items-start">
-                <span class="ml-3 text-base font-medium">523€ pour deux danses*</span>
+                <span class="ml-3 text-base font-medium">528€ pour deux danses*</span>
             </li>
             <li class="flex items-start">
                 <span class="ml-3 text-base font-medium">Puis 50€ par cours supplémentaire</span>
@@ -65,7 +65,7 @@
 </div>
 
 <div class="container mx-auto prices-asterix-container">
-    <p>*Prix comprenant 10€ de cotisation à l'association et 19€ de cotisation FFD</p>
+    <p>*Prix comprenant 10€ de cotisation à l'association et 19€ de licence FFD</p>
 </div>
 
 @endsection
