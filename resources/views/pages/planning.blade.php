@@ -2,6 +2,6 @@
 
 @section('content')
 <div>
-    <img src="/images/planning.png" id="planning-img">
+    <img src="/images/planning.PNG" id="planning-img">
 </div>
 @endsection
