@@ -23,24 +23,6 @@
 <div class="container mx-auto teachers mt-20">
     <p>Une équipe d’enseignants pour vous satisfaire</p>
     <div class="flex flex-wrap">
-        <div class="md:w-1/2 lg:w-1/3 py-4 px-4" >
-            <div class=" ">
-                <a>
-                    <div class="bg-white relative shadow p-2 rounded-lg text-gray-800 hover:shadow-lg">
-                        <img src="/images/fond_kaiba.jpg" class="h-32 rounded-lg w-full object-cover">
-                        <div class="flex justify-center">
-                            <img src="/images/kaiba.jpg" class="rounded-full -mt-6 border-4 object-center object-cover border-white mr-2 h-16 w-16">
-                        </div>
-                        <div class="py-2 px-2">
-                            <div class=" font-bold font-title text-center">Kaiba</div>
-
-                            <div class="text-sm font-light text-center my-2">Street'dance</div>
-                        </div>
-                    </div>
-                </a>
-
-            </div>
-        </div>
 
         <div class="md:w-1/2 lg:w-1/3 py-4 px-4">
             <div class=" ">
@@ -65,33 +47,14 @@
             <div class=" ">
                 <a>
                     <div class="bg-white relative shadow p-2 rounded-lg text-gray-800 hover:shadow-lg">
-                        <img src="/images/fond_stephen.jpg" class="h-32 rounded-lg w-full object-cover">
-                        <div class="flex justify-center">
-                            <img src="/images/stephen.jpg" class="rounded-full -mt-6 border-4 object-center object-cover border-white mr-2 h-16 w-16">
-                        </div>
-                        <div class="py-2 px-2">
-                            <div class=" font-bold font-title text-center">Stephen</div>
-
-                            <div class="text-sm font-light text-center my-2">Kizomba</div>
-                        </div>
-                    </div>
-                </a>
-
-            </div>
-        </div>
-
-        <div class="md:w-1/2 lg:w-1/3 py-4 px-4">
-            <div class=" ">
-                <a>
-                    <div class="bg-white relative shadow p-2 rounded-lg text-gray-800 hover:shadow-lg">
                         <img src="/images/fond_bachata.jpg" class="h-32 rounded-lg w-full object-cover">
                         <div class="flex justify-center">
-                            <img src="/images/photo_thomas.jpg" class="rounded-full -mt-6 border-4 object-center object-cover border-white mr-2 h-16 w-16">
+                            <img src="/images/Marvin.jpg" class="rounded-full -mt-6 border-4 object-center object-cover border-white mr-2 h-16 w-16">
                         </div>
                         <div class="py-2 px-2">
-                            <div class=" font-bold font-title text-center">Thomas</div>
+                            <div class=" font-bold font-title text-center">Marvin</div>
 
-                            <div class="text-sm font-light text-center my-2">Bachata</div>
+                            <div class="text-sm font-light text-center my-2">Salsa & Bachata</div>
                         </div>
                     </div>
                 </a>
@@ -117,13 +80,51 @@
 
             </div>
         </div>
+
+        <div class="md:w-1/2 lg:w-1/3 py-4 px-4">
+            <div class=" ">
+                <a>
+                    <div class="bg-white relative shadow p-2 rounded-lg text-gray-800 hover:shadow-lg">
+                        <img src="/images/fond_tango-argentin.jpg" class="h-32 rounded-lg w-full object-cover">
+                        <div class="flex justify-center">
+                            <img src="/images/Djamel.jpg" class="rounded-full -mt-6 border-4 object-center object-cover border-white mr-2 h-16 w-16">
+                        </div>
+                        <div class="py-2 px-2">
+                            <div class=" font-bold font-title text-center">Djamel</div>
+
+                            <div class="text-sm font-light text-center my-2">Tango Argentin</div>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+        <div class="md:w-1/2 lg:w-1/3 py-4 px-4">
+            <div class=" ">
+                <a>
+                    <div class="bg-white relative shadow p-2 rounded-lg text-gray-800 hover:shadow-lg">
+                        <img src="/images/fond_stephen.jpg" class="h-32 rounded-lg w-full object-cover">
+                        <div class="flex justify-center">
+                            <img src="/images/userrandom.png" class="rounded-full -mt-6 border-4 object-center object-cover border-white mr-2 h-16 w-16">
+                        </div>
+                        <div class="py-2 px-2">
+                            <div class=" font-bold font-title text-center">   </div>
+
+                            <div class="text-sm font-light text-center my-2">Kizomba</div>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
     </div>
 </div>
 
 <div class="text-lg font-semibold no-underline text-header text-center m-20">
     <img src="/images/ffd.png" alt="logo de la fédération française de danse" height="70" width="70" style="display: inline-block">
     <span style="display: inline-block">
-        <span class="logo-color-2">Sweet'Danses est une association en lien avec la fédération française de danse</span>
+        <span class="logo-color-2">Sweet'Danses est une association rattachée à la fédération française de danse</span>
     </span>
 </div>
 

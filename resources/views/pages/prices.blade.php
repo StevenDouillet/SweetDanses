@@ -11,7 +11,7 @@
     <section class="flex flex-col w-full max-w-sm p-12 space-y-6 bg-white rounded-lg shadow-md">
         <!-- Price -->
         <div class="flex-shrink-0">
-            <div class="text-3xl font-medium tracking-tight text-center">199 euros*</div>
+            <div class="text-3xl font-medium tracking-tight text-center">209 euros*</div>
             <div class="text-gray-400 text-center">pour l'année entière</div>
         </div>
 
@@ -23,34 +23,7 @@
         <!-- Features -->
         <ul class="flex-1 space-y-4">
             <li class="flex items-start">
-                <span class="ml-3 text-base font-medium">269€ pour deux danses*</span>
-            </li>
-            <li class="flex items-start">
-                <span class="ml-3 text-base font-medium">Puis 30€ par cours supplémentaire</span>
-            </li>
-        </ul>
-
-        <!-- Button -->
-        <div class="flex-shrink-0 pt-4 text-center">
-            <a href="#" class="small-sw-button">Demander un essai gratuit</a>
-        </div>
-    </section>
-    <section class="flex flex-col w-full max-w-sm p-12 space-y-6 bg-white rounded-lg shadow-md">
-        <!-- Price -->
-        <div class="flex-shrink-0">
-            <div class="text-3xl font-medium tracking-tight text-center">378 euros*</div>
-            <div class="text-gray-400 text-center">pour l'année entière</div>
-        </div>
-
-        <!--  -->
-        <div class="flex-shrink-0 pb-6 space-y-2 border-b">
-            <h2 class="text-2xl font-normal">Tarif couple</h2>
-        </div>
-
-        <!-- Features -->
-        <ul class="flex-1 space-y-4">
-            <li class="flex items-start">
-                <span class="ml-3 text-base font-medium">528€ pour deux danses*</span>
+                <span class="ml-3 text-base font-medium">279€ pour deux danses*</span>
             </li>
             <li class="flex items-start">
                 <span class="ml-3 text-base font-medium">Puis 50€ par cours supplémentaire</span>
@@ -62,10 +35,39 @@
             <a href="#" class="small-sw-button">Demander un essai gratuit</a>
         </div>
     </section>
+    <section class="flex flex-col w-full max-w-sm p-12 space-y-6 bg-white rounded-lg shadow-md">
+        <!-- Price -->
+        <div class="flex-shrink-0">
+            <div class="text-3xl font-medium tracking-tight text-center">388 euros*</div>
+            <div class="text-gray-400 text-center">pour l'année entière</div>
+        </div>
+
+        <!--  -->
+        <div class="flex-shrink-0 pb-6 space-y-2 border-b">
+            <h2 class="text-2xl font-normal">Tarif couple</h2>
+        </div>
+
+        <!-- Features -->
+        <ul class="flex-1 space-y-4">
+            <li class="flex items-start">
+                <span class="ml-3 text-base font-medium">538€ pour deux danses*</span>
+            </li>
+            <li class="flex items-start">
+                <span class="ml-3 text-base font-medium">Puis 90€ par cours supplémentaire</span>
+            </li>
+        </ul>
+
+        <!-- Button -->
+        <div class="flex-shrink-0 pt-4 text-center">
+            <a href="#" class="small-sw-button">Demander un essai gratuit</a>
+        </div>
+    </section>
 </div>
 
 <div class="container mx-auto prices-asterix-container">
-    <p>*Prix comprenant 10€ de cotisation à l'association et 19€ de licence FFD</p>
+    <p>*Sont inclus dans les tarifs ci-dessus : la cotisation à  l'association 10 € et la cotisation FFD 19 € par personne</p>
+    <br>
+    <p>Paiement par chèque à l'ordre de Sweet'danses, en 1 ou 3 chèques</p>
 </div>
 
 @endsection
