@@ -62,6 +62,23 @@
             <a href="#" class="small-sw-button">Demander un essai gratuit</a>
         </div>
     </section>
+    <section class="flex flex-col w-full max-w-sm p-12 space-y-6 bg-white rounded-lg shadow-md">
+        <!-- Price -->
+        <div class="flex-shrink-0">
+            <div class="text-3xl font-medium tracking-tight text-center">149 euros</div>
+            <div class="text-gray-400 text-center">pour l'année entière</div>
+        </div>
+
+        <!--  -->
+        <div class="flex-shrink-0 pb-6 space-y-2 border-b">
+            <h2 class="text-2xl font-normal">Tarif enfant</h2>
+        </div>
+
+        <!-- Button -->
+        <div class="flex-shrink-0 pt-4 text-center">
+            <a href="#" class="small-sw-button">Demander un essai gratuit</a>
+        </div>
+    </section>
 </div>
 
 <div class="container mx-auto prices-asterix-container">

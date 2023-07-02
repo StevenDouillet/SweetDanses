@@ -153,7 +153,7 @@
     <div class="relative rounded-lg flex flex-col md:flex-row items-center md:shadow-xl md:h-72 mx-2 mt-10">
 
         <div class="z-0 order-1 md:order-2 relative w-full md:w-2/5 h-80 md:h-full overflow-hidden rounded-lg md:rounded-none md:rounded-r-lg">
-            <div class="absolute inset-0 w-full h-full object-fill object-center bg-cover bg-bottom" style="background-image: url( /images/disciplines/kizomba_danse.jpg ); background-blend-mode: multiply;"></div>
+            <div class="absolute inset-0 w-full h-full object-fill object-center bg-cover bg-bottom" style="background-image: url( /images/jeux-anniversaire-danse.jpg ); background-blend-mode: multiply;"></div>
             <div class="md:hidden absolute inset-0 h-full p-6 pb-6 flex flex-col-reverse justify-start items-start bg-gradient-to-b from-transparent via-transparent to-gray-900">
                 <h3 class="w-full font-bold text-2xl text-white leading-tight mb-2">Kizomba</h3>
             </div>
@@ -164,11 +164,9 @@
 
         <div class="z-10 order-2 md:order-1 w-full h-full md:w-3/5 flex items-center -mt-6 md:mt-0">
             <div class="p-8 md:pr-18 md:pl-14 md:py-12 mx-2 md:mx-0 h-full bg-white rounded-lg md:rounded-none md:rounded-l-lg shadow-xl md:shadow-none">
-                <h3 class="hidden md:block font-bold text-2xl text-gray-700">Kizomba</h3>
+                <h3 class="hidden md:block font-bold text-2xl">Section enfant</h3>
                 <p class="text-gray-600 text-justify mt-5">
-                    Danse très sensuelle, la musique et la danse viennent d'Angola, il s'agit d'un dérivé de la Semba.
-                    La musique est relativement lente et il y a un véritable jeu entre le cavalier et la cavalière et la musique.
-                    Il faut se lancer, c'est une danse très agréable et la portée de tous.
+                    Cours de danses pour enfants de 5 ans à l'adolescence. Découverte de certaines danses de couple et chorégraphies individuelles. L'amusement sera de rigueur.
                 </p>
             </div>
         </div>

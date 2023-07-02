@@ -33,7 +33,7 @@
                             <img src="/images/alexis.png" class="rounded-full -mt-6 border-4 object-center object-cover border-white mr-2 h-16 w-16">
                         </div>
                         <div class="py-2 px-2">
-                            <div class=" font-bold font-title text-center">Alexis</div>
+                            <div class=" font-bold font-title text-center">Alexis et Johanna</div>
 
                             <div class="text-sm font-light text-center my-2">Danses de société, Salsa et Rock</div>
                         </div>
@@ -87,10 +87,10 @@
                     <div class="bg-white relative shadow p-2 rounded-lg text-gray-800 hover:shadow-lg">
                         <img src="/images/fond_tango-argentin.jpg" class="h-32 rounded-lg w-full object-cover">
                         <div class="flex justify-center">
-                            <img src="/images/Djamel.jpg" class="rounded-full -mt-6 border-4 object-center object-cover border-white mr-2 h-16 w-16">
+                            <img src="/images/userrandom.png" class="rounded-full -mt-6 border-4 object-center object-cover border-white mr-2 h-16 w-16">
                         </div>
                         <div class="py-2 px-2">
-                            <div class=" font-bold font-title text-center">Djamel</div>
+                            <div class=" font-bold font-title text-center">Bastien</div>
 
                             <div class="text-sm font-light text-center my-2">Tango Argentin</div>
                         </div>
@@ -104,14 +104,14 @@
             <div class=" ">
                 <a>
                     <div class="bg-white relative shadow p-2 rounded-lg text-gray-800 hover:shadow-lg">
-                        <img src="/images/fond_stephen.jpg" class="h-32 rounded-lg w-full object-cover">
+                        <img src="/images/jeux-anniversaire-danse.jpg" class="h-32 rounded-lg w-full object-cover">
                         <div class="flex justify-center">
                             <img src="/images/userrandom.png" class="rounded-full -mt-6 border-4 object-center object-cover border-white mr-2 h-16 w-16">
                         </div>
                         <div class="py-2 px-2">
-                            <div class=" font-bold font-title text-center">   </div>
+                            <div class=" font-bold font-title text-center">Johanna</div>
 
-                            <div class="text-sm font-light text-center my-2">Kizomba</div>
+                            <div class="text-sm font-light text-center my-2">Section enfant</div>
                         </div>
                     </div>
                 </a>
