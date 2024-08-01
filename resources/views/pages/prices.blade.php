@@ -11,7 +11,7 @@
     <section class="flex flex-col w-full max-w-sm p-12 space-y-6 bg-white rounded-lg shadow-md">
         <!-- Price -->
         <div class="flex-shrink-0">
-            <div class="text-3xl font-medium tracking-tight text-center">209 euros*</div>
+            <div class="text-3xl font-medium tracking-tight text-center">224 euros*</div>
             <div class="text-gray-400 text-center">pour l'année entière</div>
         </div>
 
@@ -23,10 +23,10 @@
         <!-- Features -->
         <ul class="flex-1 space-y-4">
             <li class="flex items-start">
-                <span class="ml-3 text-base font-medium">279€ pour deux danses*</span>
+                <span class="ml-3 text-base font-medium">304€ pour deux danses*</span>
             </li>
             <li class="flex items-start">
-                <span class="ml-3 text-base font-medium">Puis 50€ par cours supplémentaire</span>
+                <span class="ml-3 text-base font-medium">Puis 60€ par cours supplémentaire</span>
             </li>
         </ul>
 
@@ -38,7 +38,7 @@
     <section class="flex flex-col w-full max-w-sm p-12 space-y-6 bg-white rounded-lg shadow-md">
         <!-- Price -->
         <div class="flex-shrink-0">
-            <div class="text-3xl font-medium tracking-tight text-center">388 euros*</div>
+            <div class="text-3xl font-medium tracking-tight text-center">428 euros*</div>
             <div class="text-gray-400 text-center">pour l'année entière</div>
         </div>
 
@@ -50,10 +50,10 @@
         <!-- Features -->
         <ul class="flex-1 space-y-4">
             <li class="flex items-start">
-                <span class="ml-3 text-base font-medium">538€ pour deux danses*</span>
+                <span class="ml-3 text-base font-medium">588€ pour deux danses*</span>
             </li>
             <li class="flex items-start">
-                <span class="ml-3 text-base font-medium">Puis 90€ par cours supplémentaire</span>
+                <span class="ml-3 text-base font-medium">Puis 100€ par cours supplémentaire</span>
             </li>
         </ul>
 
@@ -65,7 +65,7 @@
     <section class="flex flex-col w-full max-w-sm p-12 space-y-6 bg-white rounded-lg shadow-md">
         <!-- Price -->
         <div class="flex-shrink-0">
-            <div class="text-3xl font-medium tracking-tight text-center">149 euros</div>
+            <div class="text-3xl font-medium tracking-tight text-center">154 euros</div>
             <div class="text-gray-400 text-center">pour l'année entière</div>
         </div>
 
@@ -82,7 +82,7 @@
 </div>
 
 <div class="container mx-auto prices-asterix-container">
-    <p>*Sont inclus dans les tarifs ci-dessus : la cotisation à  l'association 10 € et la cotisation FFD 19 € par personne</p>
+    <p>*Sont inclus dans les tarifs ci-dessus : la cotisation à  l'association 10 € et la cotisation FFD 24 € par personne</p>
     <br>
     <p>Paiement par chèque à l'ordre de Sweet'danses, en 1 ou 3 chèques</p>
 </div>
