@@ -104,31 +104,7 @@
             </div>
         </div>
     </div>
-    <div class="relative rounded-lg flex flex-col md:flex-row items-center md:shadow-xl md:h-72 mx-2 mt-10">
 
-        <div class="z-0 order-1 md:order-2 relative w-full md:w-2/5 h-80 md:h-full overflow-hidden rounded-lg md:rounded-none md:rounded-r-lg">
-            <div class="absolute inset-0 w-full h-full object-fill object-center bg-cover bg-bottom" style="background-image: url( /images/disciplines/bachata_danse.jpg ); background-blend-mode: multiply;"></div>
-            <div class="md:hidden absolute inset-0 h-full p-6 pb-6 flex flex-col-reverse justify-start items-start bg-gradient-to-b from-transparent via-transparent to-gray-900">
-                <h3 class="w-full font-bold text-2xl text-white leading-tight mb-2">Bachata</h3>
-            </div>
-            <svg class="hidden md:block absolute inset-y-0 h-full w-24 fill-current text-white -ml-12" viewBox="0 0 100 100" preserveAspectRatio="none">
-                <polygon points="50,0 100,0 50,100 0,100" />
-            </svg>
-        </div>
-
-        <div class="z-10 order-2 md:order-1 w-full h-full md:w-3/5 flex items-center -mt-6 md:mt-0">
-            <div class="p-8 md:pr-18 md:pl-14 md:py-12 mx-2 md:mx-0 h-full bg-white rounded-lg md:rounded-none md:rounded-l-lg shadow-xl md:shadow-none">
-                <h3 class="hidden md:block font-bold text-2xl text-gray-700">Bachata</h3>
-                <p class="text-gray-600 text-justify mt-5">
-                    Depuis les années 80, la musique latine type bachata est diffusée sur les radios et la danse est apparue par la suite.
-                    Elle est sur une base de 8 temps et les couples peuvent évoluer en jouant avec la musique et faire parler leur corps.
-                    C'est une danse qui a des variantes, fusion, sensuelle, ...
-                    A Sweet'danses, vous apprendrez principalement la bachata fusion avec un aperçu des autres possibilités
-                    en fin de première année et surtout en intermédiaire.
-                </p>
-            </div>
-        </div>
-    </div>
     <div class="relative rounded-lg flex flex-col md:flex-row items-center md:shadow-xl md:h-72 mx-2 mt-10">
 
         <div class="z-0 order-1 md:order-2 relative w-full md:w-2/5 h-80 md:h-full overflow-hidden rounded-lg md:rounded-none md:rounded-r-lg">

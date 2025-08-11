@@ -47,25 +47,6 @@
             <div class=" ">
                 <a>
                     <div class="bg-white relative shadow p-2 rounded-lg text-gray-800 hover:shadow-lg">
-                        <img src="/images/fond_bachata.jpg" class="h-32 rounded-lg w-full object-cover">
-                        <div class="flex justify-center">
-                            <img src="/images/Marvin.jpg" class="rounded-full -mt-6 border-4 object-center object-cover border-white mr-2 h-16 w-16">
-                        </div>
-                        <div class="py-2 px-2">
-                            <div class=" font-bold font-title text-center">Marvin</div>
-
-                            <div class="text-sm font-light text-center my-2">Salsa & Bachata</div>
-                        </div>
-                    </div>
-                </a>
-
-            </div>
-        </div>
-
-        <div class="md:w-1/2 lg:w-1/3 py-4 px-4">
-            <div class=" ">
-                <a>
-                    <div class="bg-white relative shadow p-2 rounded-lg text-gray-800 hover:shadow-lg">
                         <img src="/images/fond_christine.jpg" class="h-32 rounded-lg w-full object-cover">
                         <div class="flex justify-center">
                             <img src="/images/christine.jpg" class="rounded-full -mt-6 border-4 object-center object-cover border-white mr-2 h-16 w-16">
