@@ -14,7 +14,7 @@
     <p>Une équipe de bénévoles actifs œuvre pour vous</p>
     <ul>
         <li>Présidente : Christine</li>
-        <li>Trésorière : Coralie</li>
+        <li>Trésorière : Nicole Collodet</li>
         <li>Secrétaire : Ghyslaine</li>
     </ul>
     <p>Et des membres actifs au combien importants dans notre vie associative !</p>
@@ -92,7 +92,7 @@
                         <div class="py-2 px-2">
                             <div class=" font-bold font-title text-center">Johanna</div>
 
-                            <div class="text-sm font-light text-center my-2">Section enfant</div>
+                            <div class="text-sm font-light text-center my-2">Section enfant et niveaux débutants adultes</div>
                         </div>
                     </div>
                 </a>

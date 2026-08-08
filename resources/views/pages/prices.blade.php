@@ -29,11 +29,6 @@
                 <span class="ml-3 text-base font-medium">Puis 60€ par cours supplémentaire</span>
             </li>
         </ul>
-
-        <!-- Button -->
-        <div class="flex-shrink-0 pt-4 text-center">
-            <a href="#" class="small-sw-button">Demander un essai gratuit</a>
-        </div>
     </section>
     <section class="flex flex-col w-full max-w-sm p-12 space-y-6 bg-white rounded-lg shadow-md">
         <!-- Price -->
@@ -56,11 +51,6 @@
                 <span class="ml-3 text-base font-medium">Puis 100€ par cours supplémentaire</span>
             </li>
         </ul>
-
-        <!-- Button -->
-        <div class="flex-shrink-0 pt-4 text-center">
-            <a href="#" class="small-sw-button">Demander un essai gratuit</a>
-        </div>
     </section>
     <section class="flex flex-col w-full max-w-sm p-12 space-y-6 bg-white rounded-lg shadow-md">
         <!-- Price -->
@@ -70,13 +60,8 @@
         </div>
 
         <!--  -->
-        <div class="flex-shrink-0 pb-6 space-y-2 border-b">
+        <div class="flex-shrink-0 pb-6 space-y-2">
             <h2 class="text-2xl font-normal">Tarif enfant</h2>
-        </div>
-
-        <!-- Button -->
-        <div class="flex-shrink-0 pt-4 text-center">
-            <a href="#" class="small-sw-button">Demander un essai gratuit</a>
         </div>
     </section>
 </div>
